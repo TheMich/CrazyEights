@@ -10,6 +10,7 @@
 
 namespace Crazy8
 {
+  // TODO might work for now, but it may be desirable to make it a proper class
   using Player = int;
 
   struct PlayerInfo

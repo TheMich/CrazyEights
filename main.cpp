@@ -6,6 +6,7 @@
 #include <iostream>
 #include <string>
 
+// TODO consider moving in game class
 void playHand(Crazy8::Game& game)
 {
   // Setup player turn
@@ -61,6 +62,7 @@ void playHand(Crazy8::Game& game)
 int main()
 {
   std::cout << "Welcome to Crazy8!\n\n";
+  std::cout << "This program is currently under construction.\n\n";
   Crazy8::Game game(2);
   // std::cout << "Enter the number of players (2-7): ";
   //
