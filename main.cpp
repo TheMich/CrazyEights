@@ -1,10 +1,9 @@
 #include "Game.h"
-#include "Deck.h"
 
-#include <string_view>
 #include <cassert>
 #include <iostream>
 #include <string>
+#include <string_view>
 
 // TODO consider moving in game class
 void playHand(Crazy8::Game& game)

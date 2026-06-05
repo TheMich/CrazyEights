@@ -86,20 +86,3 @@ std::string Crazy8::Deck::getName(const Card card)
 {
   return deckInfo[card].name();
 }
-
-// auto Crazy8::Deck::deckInfo = []
-// {
-//   using namespace fmt::literals;
-//   std::array<CardInfo, 52> result;
-//   for (int s{diamonds}; s < max_suits; ++s)
-//   {
-//     for (int v{ace}; v < max_values; ++v)
-//     {
-//       const auto i{max_suits * s + v};
-//       result[i] = CardInfo{
-//         std::format("{} of {}", cardValueNames[v], suitNames[s]),
-//         1};
-//     }
-//   }
-//   return result;
-// }();

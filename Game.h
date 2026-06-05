@@ -1,12 +1,10 @@
 #ifndef CRAZY8_GAME_H
 #define CRAZY8_GAME_H
 
-#include <optional>
-
-
 #include "Deck.h"
 
 #include <vector>
+#include <optional>
 
 namespace Crazy8
 {

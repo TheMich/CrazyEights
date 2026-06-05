@@ -1,6 +1,5 @@
 #include "Game.h"
 #include "Deck.h"
-
 #include "Random.h"
 
 #include <algorithm>
